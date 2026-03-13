@@ -129,5 +129,5 @@ def run_etl_transform(customers_raw, products_raw, orders_raw):
         products_clean,
         orders_clean
     )
-
+    print("transform_etl.py: ETL transformation completed successfully.")
     return sales_report
